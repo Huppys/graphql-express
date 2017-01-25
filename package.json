@@ -1,0 +1,20 @@
+{
+  "name": "graphl-server",
+  "version": "0.0.1",
+  "description": "A GraphQL server",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "graphql",
+    "express"
+  ],
+  "author": "Oliver Witzki <projects@oliverwitzki.de>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-graphql": "^0.6.2",
+    "graphql": "^0.9.0"
+  }
+}
